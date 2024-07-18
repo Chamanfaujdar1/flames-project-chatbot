@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+    background-image: url("https://mrwallpaper.com/images/high/krishna-arjun-leading-the-kurukshetra-war-vbs0d15749llhvy6.webp"); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+.img {
+    margin-top: 10px;
+    animation: fadeIn 2s;
+}
+  .img {
+    width: 200px;
+    height: 200px;
+}
+  .content {
+    text-align: center;
+    width: 80%;
+
+    margin-top: 20px;
+    animation: fadeIn 2s;
+    /* Semi-transparent background for better readability */
+}
+.content h2::first-line{
+  color: red;
+    background: #121fcf;
+    background: linear-gradient(to right, #121fcf 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 1px #2e7fe9, 0 0 5px #000000;
+
+    margin-top: 1px;
+    font-size: 2em;
+    animation: slideIn 1.5s;
+  }
+h3{
+  color: orangered;
+}
+p{
+  color: orange;
+}
+  .content label {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: left;
+    color: #000000;
+  }
+  .content input,
+  .content textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #3E9CFF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.5
+    ); /* Slightly transparent background */
+    color: #000; /* Black text for better contrast */
+  }
+  .content input::placeholder,
+  .content textarea::placeholder {
+    color: rgba(
+      0,
+      0,
+      0,
+      0.7
+    ); /* Dark placeholder text for better readability */
+  }
+  .content button {
+    padding: 15px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  .content button:hover {
+    background-color: #0056b3;
+  }
+  .response {
+    margin-top: 20px;
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.9
+    ); /* Almost opaque background for better readability */
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    animation: fadeIn 2s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

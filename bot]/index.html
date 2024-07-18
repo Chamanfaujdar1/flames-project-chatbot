@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problem Solver</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="img">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.lvy9NiwNBW74FzuVIAuhxgHaIy&pid=Api&P=0&h=220" alt="Image" />
+      <!-- Add your logo image here -->
+    </div>
+    <div class="content">
+      <h2>
+        The Bhagwat Gita -<br/>
+        Solution of your all problems
+      </h2>
+      <h3>यदा यदा हि धर्मस्य ग्लानिर्भवति भारत:।
+        अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्।। <br>
+        <p> भावार्थ: श्री कृष्ण कहते हैं कि हे पार्थ, जब भी धर्म का नाश होता है और इस धरती पर अधर्म का विकास होता है, तो मैं धर्म की रक्षा और अधर्म को नष्ट करने के लिए अवतार लेता हूं।</p>
+       </h3>
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="Enter your name" />
+      <label for="problem">Your Problem</label>
+      <textarea
+        id="problem"
+        rows="4"
+        placeholder="Describe your problem"
+      ></textarea>
+      <button onclick="getResponse()">आओ जानें हर समस्या का समाधान</button>
+      <div class="response" id="response"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
